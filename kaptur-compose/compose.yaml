@@ -1,0 +1,10 @@
+services:
+  front:
+    build: ./kaptur-front
+    ports:
+      - "1213:3000"
+
+  back:
+    build: ./kaptur
+    ports:
+      - "1212:3000"
